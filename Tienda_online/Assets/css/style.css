@@ -1,0 +1,49 @@
+.app-sidebar__user-avatar {
+  width: 68px;
+  background: gray;
+  padding: 6px;
+}
+
+.app-nav {
+  background-color: #d8827e;
+}
+
+.app-header{
+	 background-color: #d8827e;
+}
+
+.app-header__logo{
+	background-color: #e5786b;
+}
+
+.app-sidebar__toggle{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15pt;
+	
+	
+}
+
+.app-sidebar__toggle::before{
+	display: none;
+}
+
+
+.page-item.active .page-link{
+	 background-color: #dc3545;
+  border-color: #dc3545;
+
+}
+
+.page-link{
+	color:  #dc3545;
+}
+
+a {
+  color: #e5786b;
+  }
